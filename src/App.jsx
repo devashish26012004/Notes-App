@@ -12,6 +12,7 @@ const NotesApp = () => {
   return (
     <div>
       <AddNote addNewNote={addNewNote} />
+      <hr />
       <AllNotes notes={notes} />
     </div>
   );
