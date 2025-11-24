@@ -1,7 +1,7 @@
 const AllNotes = ({ notes }) => {
   return (
     <div className="w-2xl mx-auto my-5">
-      <h2 className="text-2xl font-bold mb-4">All Notes</h2>
+      <h2 className="text-2xl font-bold mb-4 text-center">All Notes</h2>
 
       <div className="grid grid-cols-1 gap-4">
         {notes.map((note, index) => (
